@@ -4,7 +4,7 @@
 
 int main()
 {
-	LoadLibraryA("C:\\Users\\jhiggins\\source\\repos\\Testing\\x64\\Debug\\InternalDLL.dll");
+	LoadLibraryA("InternalDLL.dll");
 	helloWorld(10);
 	while (true)
 		if (GetAsyncKeyState(VK_END) & 0x01)
